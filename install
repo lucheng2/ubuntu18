@@ -10,3 +10,6 @@ https://blog.csdn.net/HelloZEX/article/details/80762705
 https://www.chromeba.net/chrome-liulanqi-vpn-skyzipproxy.html
 离线安装插件：
 http://chromecj.com/utilities/2019-01/1791.html
+使用shadowsocks：
+https://mystery0.vip/2017/01/12/Ubuntu%E4%BD%BF%E7%94%A8Shadowsocks-qt5%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/
+注意：安装了shadowsocks-qt5，并配置好后，并没有完，还上不了网，必须配置系统代理（或浏览器代理）
