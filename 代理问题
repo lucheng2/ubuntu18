@@ -1,0 +1,8 @@
+geit clone时报错: Failed to connect to 127.0.0.1 port 1080: 拒绝连接.
+
+命令行执行:env|grep -I proxy
+结果:
+no_proxy=localhost,127.0.0.0/8,::1
+all_proxy=socks5://127.0.0.1:1080
+
+可知有全局代理代理, 取消即可.执行:unset all_proxy
