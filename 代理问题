@@ -6,3 +6,14 @@ no_proxy=localhost,127.0.0.0/8,::1
 all_proxy=socks5://127.0.0.1:1080
 
 可知有全局代理代理, 取消即可.执行:unset all_proxy
+
+
+pip install报错：Missing dependencies for SOCKS support解决方法, 命令行:
+unset all_proxy
+unset ALL_PROXY
+
+##Install missing dependencies:
+pip install pysocks
+
+##Reset proxy
+source ~/.bashrc
